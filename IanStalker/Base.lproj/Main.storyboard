@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Dkk-DH-6Tf">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dkk-DH-6Tf" secondAttribute="trailing" constant="-16" id="OBY-kt-BPe"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Dkk-DH-6Tf" secondAttribute="bottom" id="alk-oO-qtc"/>
+                            <constraint firstItem="Dkk-DH-6Tf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="r8C-Yd-HD0"/>
+                            <constraint firstItem="Dkk-DH-6Tf" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="uIV-CR-Ah8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Dkk-DH-6Tf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="OBY-kt-BPe"/>
+                                <exclude reference="r8C-Yd-HD0"/>
+                                <exclude reference="uIV-CR-Ah8"/>
+                                <exclude reference="alk-oO-qtc"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Dkk-DH-6Tf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OBY-kt-BPe"/>
+                                <include reference="r8C-Yd-HD0"/>
+                                <include reference="uIV-CR-Ah8"/>
+                                <include reference="alk-oO-qtc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Dkk-DH-6Tf" id="qsd-Fu-LAv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

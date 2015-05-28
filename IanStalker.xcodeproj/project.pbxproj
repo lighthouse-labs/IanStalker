@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286137D91B177B0300349496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286137D81B177B0300349496 /* main.m */; };
+		286137DC1B177B0300349496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286137DB1B177B0300349496 /* AppDelegate.m */; };
+		286137DF1B177B0300349496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286137DE1B177B0300349496 /* ViewController.m */; };
+		286137E21B177B0300349496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286137E01B177B0300349496 /* Main.storyboard */; };
+		286137E41B177B0300349496 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286137E31B177B0300349496 /* Images.xcassets */; };
+		286137E71B177B0300349496 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286137E51B177B0300349496 /* LaunchScreen.xib */; };
+		286137F31B177B0400349496 /* IanStalkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286137F21B177B0400349496 /* IanStalkerTests.m */; };
+		286137FD1B177B1700349496 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286137FC1B177B1700349496 /* MapKit.framework */; };
+		286137FF1B177B1E00349496 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286137FE1B177B1E00349496 /* CoreLocation.framework */; };
+		286138011B17808300349496 /* location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 286138001B17808300349496 /* location.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286137ED1B177B0400349496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286137CB1B177B0300349496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286137D21B177B0300349496;
+			remoteInfo = IanStalker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286137D31B177B0300349496 /* IanStalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IanStalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286137D71B177B0300349496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286137D81B177B0300349496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		286137DA1B177B0300349496 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		286137DB1B177B0300349496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		286137DD1B177B0300349496 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		286137DE1B177B0300349496 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		286137E11B177B0300349496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286137E31B177B0300349496 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		286137E61B177B0300349496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		286137EC1B177B0400349496 /* IanStalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IanStalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286137F11B177B0400349496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286137F21B177B0400349496 /* IanStalkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IanStalkerTests.m; sourceTree = "<group>"; };
+		286137FC1B177B1700349496 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		286137FE1B177B1E00349496 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		286138001B17808300349496 /* location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286137D01B177B0300349496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286137FF1B177B1E00349496 /* CoreLocation.framework in Frameworks */,
+				286137FD1B177B1700349496 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286137E91B177B0400349496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286137CA1B177B0300349496 = {
+			isa = PBXGroup;
+			children = (
+				286137FE1B177B1E00349496 /* CoreLocation.framework */,
+				286137FC1B177B1700349496 /* MapKit.framework */,
+				286137D51B177B0300349496 /* IanStalker */,
+				286137EF1B177B0400349496 /* IanStalkerTests */,
+				286137D41B177B0300349496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286137D41B177B0300349496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286137D31B177B0300349496 /* IanStalker.app */,
+				286137EC1B177B0400349496 /* IanStalkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286137D51B177B0300349496 /* IanStalker */ = {
+			isa = PBXGroup;
+			children = (
+				286137DA1B177B0300349496 /* AppDelegate.h */,
+				286137DB1B177B0300349496 /* AppDelegate.m */,
+				286137DD1B177B0300349496 /* ViewController.h */,
+				286137DE1B177B0300349496 /* ViewController.m */,
+				286137E01B177B0300349496 /* Main.storyboard */,
+				286137E31B177B0300349496 /* Images.xcassets */,
+				286137E51B177B0300349496 /* LaunchScreen.xib */,
+				286137D61B177B0300349496 /* Supporting Files */,
+			);
+			path = IanStalker;
+			sourceTree = "<group>";
+		};
+		286137D61B177B0300349496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				286137D71B177B0300349496 /* Info.plist */,
+				286137D81B177B0300349496 /* main.m */,
+				286138001B17808300349496 /* location.gpx */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		286137EF1B177B0400349496 /* IanStalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				286137F21B177B0400349496 /* IanStalkerTests.m */,
+				286137F01B177B0400349496 /* Supporting Files */,
+			);
+			path = IanStalkerTests;
+			sourceTree = "<group>";
+		};
+		286137F01B177B0400349496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				286137F11B177B0400349496 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286137D21B177B0300349496 /* IanStalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286137F61B177B0400349496 /* Build configuration list for PBXNativeTarget "IanStalker" */;
+			buildPhases = (
+				286137CF1B177B0300349496 /* Sources */,
+				286137D01B177B0300349496 /* Frameworks */,
+				286137D11B177B0300349496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IanStalker;
+			productName = IanStalker;
+			productReference = 286137D31B177B0300349496 /* IanStalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286137EB1B177B0400349496 /* IanStalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286137F91B177B0400349496 /* Build configuration list for PBXNativeTarget "IanStalkerTests" */;
+			buildPhases = (
+				286137E81B177B0400349496 /* Sources */,
+				286137E91B177B0400349496 /* Frameworks */,
+				286137EA1B177B0400349496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286137EE1B177B0400349496 /* PBXTargetDependency */,
+			);
+			name = IanStalkerTests;
+			productName = IanStalkerTests;
+			productReference = 286137EC1B177B0400349496 /* IanStalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286137CB1B177B0300349496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ian MacKinnon";
+				TargetAttributes = {
+					286137D21B177B0300349496 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					286137EB1B177B0400349496 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 286137D21B177B0300349496;
+					};
+				};
+			};
+			buildConfigurationList = 286137CE1B177B0300349496 /* Build configuration list for PBXProject "IanStalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286137CA1B177B0300349496;
+			productRefGroup = 286137D41B177B0300349496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286137D21B177B0300349496 /* IanStalker */,
+				286137EB1B177B0400349496 /* IanStalkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286137D11B177B0300349496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286137E21B177B0300349496 /* Main.storyboard in Resources */,
+				286137E71B177B0300349496 /* LaunchScreen.xib in Resources */,
+				286138011B17808300349496 /* location.gpx in Resources */,
+				286137E41B177B0300349496 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286137EA1B177B0400349496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286137CF1B177B0300349496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286137DF1B177B0300349496 /* ViewController.m in Sources */,
+				286137DC1B177B0300349496 /* AppDelegate.m in Sources */,
+				286137D91B177B0300349496 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286137E81B177B0400349496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286137F31B177B0400349496 /* IanStalkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286137EE1B177B0400349496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286137D21B177B0300349496 /* IanStalker */;
+			targetProxy = 286137ED1B177B0400349496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286137E01B177B0300349496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286137E11B177B0300349496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286137E51B177B0300349496 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286137E61B177B0300349496 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286137F41B177B0400349496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		286137F51B177B0400349496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286137F71B177B0400349496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IanStalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		286137F81B177B0400349496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IanStalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		286137FA1B177B0400349496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IanStalkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IanStalker.app/IanStalker";
+			};
+			name = Debug;
+		};
+		286137FB1B177B0400349496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IanStalkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IanStalker.app/IanStalker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286137CE1B177B0300349496 /* Build configuration list for PBXProject "IanStalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286137F41B177B0400349496 /* Debug */,
+				286137F51B177B0400349496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286137F61B177B0400349496 /* Build configuration list for PBXNativeTarget "IanStalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286137F71B177B0400349496 /* Debug */,
+				286137F81B177B0400349496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286137F91B177B0400349496 /* Build configuration list for PBXNativeTarget "IanStalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286137FA1B177B0400349496 /* Debug */,
+				286137FB1B177B0400349496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286137CB1B177B0300349496 /* Project object */;
+}
